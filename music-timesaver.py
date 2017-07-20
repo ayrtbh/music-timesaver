@@ -3,7 +3,7 @@ from time import gmtime, strftime
 import os
 
 
-original_audio_path = input("drag audio file here:\n")
+original_audio_path = input("drag music file here:\n")
 
 
 subprocess.call("mkdir LR_mix_pool", shell=True)

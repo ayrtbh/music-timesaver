@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## music-timesaver
 
-You can use the [editor on GitHub](https://github.com/ayrtbh/music-timesaver/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Morden life is short, we are busy with stuff.  
+music-timesaver is a python script to change the music piece's duration to half of its original.  
+No speed up nor time stretch.  
+music-timesaver will let you listen to one music piece's even seconds in left ear and odd seconds in right ear at the SAME time.  
+This will allow you to spend half of the time for enjoying music.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Requirments
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+Python3
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+brew install python3  
 ```
+[SoX](http://sox.sourceforge.net)  
+```markdown
+brew install sox  
+```
+### How to use
+```markdown
+python3 music-timesaver.py
+```
+Drag the music into the terminal window, hit enter, you will get the music-timesaverEd file in seconds.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ayrtbh/music-timesaver/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You are welcome.
